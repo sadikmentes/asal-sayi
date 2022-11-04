@@ -50,7 +50,28 @@ int main() {
 	}
 
 
+//------------------------------------------------------------------------------------------
+	printf("Lutfen sayi giriniz:(Cikmak icin -1 bas lan) ");
+		scanf_s("%d", &sayi);
+		
+		
 
+		for (int i = 2; i <sayi; i++)
+		{
+			if (sayi%i==0)
+			{
+				asalmi++;
+			}
+		}
+		if (asalmi==0)
+		{
+			printf("Sayiniz asal\n");
+		}
+		else
+		{
+			printf("Sayiniz asal degil\n");
+		}
+		
 
 
 }
